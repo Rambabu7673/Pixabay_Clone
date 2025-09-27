@@ -1,17 +1,16 @@
-import React from 'react'
-import './App.css'
-import Images from './Component/images'
-import pixabayState from './Context/pixabayState'
- import Buttons from './Buttons'
+import React from "react";
+import "./App.css";
+import Images from "./Component/Images";
+import PixabayState from "./Context/PixabayState";
+import Buttons from "./Buttons";
 
 function App() {
-
   return (
     <>
       <Buttons />
-    <Images />
+      <Images />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
